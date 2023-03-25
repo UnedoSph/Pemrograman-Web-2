@@ -10,10 +10,10 @@
     <!-- Sidebar user panel (optional) -->
     <div class="user-panel mt-3 pb-3 mb-3 d-flex">
       <div class="image">
-        <img src="https://tse2.mm.bing.net/th?id=OIP.1yoSL-WO0YU5mQKROudvswHaHa&pid=Api&P=0" class="img-circle elevation-2" alt="User Image">
+        <img src="https://daniel.haxx.se/blog/wp-content/uploads/2016/04/a-user.png" class="img-circle elevation-2" alt="User Image">
       </div>
       <div class="info">
-        <a href="#" class="d-block color-black">Taufik Hidayat</a>
+        <a href="#" class="d-block color-black">Unedo Dionisius Sipahutar</a>
       </div>
     </div>
 
