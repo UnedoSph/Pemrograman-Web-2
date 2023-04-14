@@ -18,10 +18,10 @@ $ar_data[] = $_iuran;
 if ($_proses == "Simpan") {
     // data baru
     $sql = "INSERT INTO kartu (kode,nama,diskon,iuran) VALUES (?,?,?,?)";
-} else if ($_proses == "Update") {
-    $ar_data[] = $_POST['idedit']; // ? 8
-    $sql = "UPDATE produk SET kode=?,nama=?,diskon=?,harga_jual=?,
-    iuran=?,min_iuran=?,jenis_produk_id=? WHERE id=?";
+} else if ($_proses == "Update"){
+    $ar_data[] = $_POST['id']; // ? 8
+    $sql = "UPDATE kartu SET kode=?,nama=?,diskon=?,
+    iuran=? WHERE id=?";
 }
 if (isset($sql)) {
     $st = $dbh->prepare($sql);
